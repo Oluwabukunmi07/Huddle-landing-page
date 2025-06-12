@@ -307,6 +307,7 @@ p {
 .about>div {
     display: flex;
     flex-direction: column;
+    gap: 1em;
 }
 
 .socials {
@@ -529,6 +530,7 @@ p {
 
     .about div {
         width: 150px;
+        gap: 0;
     }
 
     /* SOCIALS */
