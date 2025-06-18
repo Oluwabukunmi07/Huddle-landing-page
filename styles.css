@@ -440,7 +440,7 @@ p {
     }
 
     .grow {
-        width: 480px;
+        width: 70%;
         float: right;
     }
 
@@ -461,14 +461,24 @@ p {
     }
 
     .flowing-conversation {
-        width: 480px;
+        width: 90%;
+        margin-left: em;
+    }
+
+    .img-convo {
+        display: flex;
+        align-items: start;
         margin-left: 5em;
     }
 
     .convo {
         text-align: left;
-        width: 35%;
-        margin-right: 3em;
+        width: 100%;
+        margin-left: 4em;
+    }
+
+    .convo h2 {
+        white-space: nowrap;
     }
 
     /* YOUR USERS */
@@ -477,14 +487,19 @@ p {
         flex-direction: row-reverse;
     }
 
+    .img-users {
+        width: 50%;
+    }
+
     .your-users-img {
-       width: 480px;
+       width: 90%;
+       margin-left: 3em;
     }
 
     .users {
         margin-left: 5em;
         text-align: left;
-        width: 35%;
+        width: 50%;
     }
 
     /* READY TO BUILD YOUR COMMUNITY? */
@@ -531,11 +546,16 @@ p {
         flex-direction: row;
         margin-top: 12em;
         gap: 4em;
+        margin-left: -5em;
     }
 
     .about>div {
         width: 150px;
         gap: 0;
+    }
+
+    .about:first-child {
+        margin-right: 5em;
     }
 
     /* SOCIALS */
